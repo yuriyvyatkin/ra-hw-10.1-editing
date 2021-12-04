@@ -72,6 +72,7 @@ function Form(props) {
           required
           value={form.price}
           onChange={handleInputChange}
+          onFocus={({ target }) => target.select()}
         />
       </div>
       <input
