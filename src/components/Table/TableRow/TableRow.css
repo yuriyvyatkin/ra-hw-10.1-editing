@@ -1,0 +1,24 @@
+.TableRow a {
+  margin-right: 5px;
+
+  font-size: 18px;
+
+  color: #000000;
+  text-decoration: none;
+}
+
+.TableRow td:not(:first-child) {
+  text-align: center;
+}
+
+.TableRow td {
+  padding: 20px;
+}
+
+.TableRow:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+[colspan="3"] {
+  text-align: center;
+}

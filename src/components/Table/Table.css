@@ -1,0 +1,17 @@
+.Table {
+  width: 100%;
+  margin-top: 20px;
+
+  border-collapse: collapse;
+}
+
+.Table th {
+  padding-bottom: 15px;
+
+  font-weight: 400;
+}
+
+.Table tbody {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
